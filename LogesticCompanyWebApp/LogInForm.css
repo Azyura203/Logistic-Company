@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-body{
+    background-color: aqua;
+}
+.title{
+    font-size: 70px;
+}
+body {
+    /* Set background image */
+    background-image: url('background-img-1.jpg');
+    
+    /* Specify background properties */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-size: cover; /* Cover the entire background */
+    background-position: center;/* Center the image */
+}
+.section-1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    background-color: rgba(255, 255, 255, 0.5); padding: 5px;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px 0 rgba(1, 242, 255, 0.5); /* Initial box shadow */
+    }
+    100% {
+        box-shadow: 0 0 20px 10px rgba(255, 1, 1, 0.512); /* Larger box shadow for the glowing effect */
+    }
+}

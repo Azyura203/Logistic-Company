@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.hi{
+    color: aqua;
+    background-color: rgb(0, 0, 0,0.5);
+}
+.bg-img{
+    background-image: url('dog.jpg');
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-size: cover; /* Cover the entire background */
+    background-position: center;
+    height: 100vh;
+}
